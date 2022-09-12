@@ -1,17 +1,18 @@
 import { Layout } from '../components/Layout';
 import { Hero } from '../components/Hero';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <>
-      <Layout
-        title={'Homepage'}
-        className={'mx-auto max-w-screen-md lg:max-w-screen-lg'}
-      >
-        <Hero />
-        <Hero />
-        <div className="text-red">hello</div>
-      </Layout>
+      <div className="max-h-screen bg-main-hero bg-no-repeat bg-cover border-8 border-red-600">
+        <Layout title={'Homepage'}>
+          <div>
+            <Hero />
+            <div className="text-red-500">hello</div>
+          </div>
+        </Layout>
+      </div>
     </>
   );
 }

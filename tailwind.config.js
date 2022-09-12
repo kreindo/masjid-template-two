@@ -10,6 +10,9 @@ module.exports = {
         'primary-color': '#39CE20',
         'secondary-color': '#FF8E00',
       },
+      backgroundImage: {
+        'main-hero': 'url("/assets/images/HeroBG.png")',
+      },
     },
   },
   plugins: [],
