@@ -1,5 +1,4 @@
-export const Footer = () => {
-  return (
+export const Footer = () => {  return (
     <>
       <div>footer</div>
     </>
