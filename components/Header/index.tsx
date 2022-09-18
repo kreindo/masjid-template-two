@@ -1,8 +1,7 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from 'next/image';import Link from 'next/link';
 export const Header = () => {
   return (
-    <div className="flex mt-[50px] justify-between items-center text-white">
+    <div className="flex pt-[50px] justify-center sm:justify-between items-center text-white">
       <div className="flex items-center font-bold text-2xl">
         <Image
           className="brightness-0 invert"
@@ -13,7 +12,7 @@ export const Header = () => {
         />
         <h1 className="ml-4">Masjid Nurussalam</h1>
       </div>
-      <div>
+      <div className="hidden sm:block">
         <ul className="flex">
           <li className="ml-[75px] font-semibold">
             <Link href={'#Home'}>Home</Link>
