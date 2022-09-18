@@ -5,13 +5,13 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="bg-gray-400">
+    <div className="bg-slate-800">
       <div className="relative min-h-screen bg-main-hero bg-no-repeat bg-cover">
         <Layout title={'Homepage'}>
           <Hero />
         </Layout>
       </div>
-      <div className="relative h-[100px]">
+      <div className="relative h-[200px]">
         <Image
           src={'/assets/images/divider1.svg'}
           alt={'divider 1'}
@@ -20,11 +20,14 @@ export default function Home() {
         />
       </div>
       <BangRevaJie>
-        <div className="w-60 h-60 bg-red-500 text-white"></div>
-        <div className="w-60 h-60 bg-red-500 text-white"></div>
-        <div className="w-60 h-60 bg-red-500 text-white"></div>
-        <div className="w-60 h-60 bg-red-500 text-white"></div>
-        <div className="w-60 h-60 bg-red-500 text-white"></div>
+        <div className="mb-[10px] w-60 h-1 bg-red-500 text-white"></div>
+        <div>
+          <h1 className="text-white">Hello content</h1>
+        </div>
+        <div className="mb-[10px] w-60 h-1 bg-red-500 text-white"></div>
+        <div className="mb-[10px] w-60 h-1 bg-red-500 text-white"></div>
+        <div className="mb-[10px] w-60 h-1 bg-red-500 text-white"></div>
+        <div className="mb-[10px] w-60 h-1 bg-red-500 text-white"></div>
       </BangRevaJie>
     </div>
   );
