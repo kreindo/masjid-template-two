@@ -1,5 +1,4 @@
-export const TalimData = [
-  {
+export const TalimData = [  {
     imgPath: '/assets/images/talim/',
   },
 ];
@@ -61,5 +60,29 @@ export const Dummy = [
   },
   {
     imgUrl: 'https://picsum.photos/400?random=8',
+  },
+  {
+    imgUrl: 'https://picsum.photos/400?random=9',
+  },
+  {
+    imgUrl: 'https://picsum.photos/400?random=10',
+  },
+  {
+    imgUrl: 'https://picsum.photos/400?random=11',
+  },
+  {
+    imgUrl: 'https://picsum.photos/400?random=12',
+  },
+  {
+    imgUrl: 'https://picsum.photos/400?random=13',
+  },
+  {
+    imgUrl: 'https://picsum.photos/400?random=14',
+  },
+  {
+    imgUrl: 'https://picsum.photos/400?random=15',
+  },
+  {
+    imgUrl: 'https://picsum.photos/400?random=16',
   },
 ];

@@ -1,4 +1,5 @@
-export interface Props {  className?: string;
+export interface Props {
+  className?: string;
   children?: React.ReactNode;
 }
 export const BangRevaJie = ({ children, className }: Props) => {

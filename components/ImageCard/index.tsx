@@ -5,7 +5,7 @@ export const ImageCard = () => {
   const keg = KegiatanData;
   return (
     <div className="flex items-center justify-center mt-10">
-      <div className="grid grid-cols-3 md:grid-cols-4 md:gap-5 gap-2">
+      <div className="grid grid-cols-3 lg:grid-cols-4 md:gap-5 gap-2">
         {dummyDatas.map((data, index) => {
           // console.log(data.Dummy[index].imgUrl);
           return (
