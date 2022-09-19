@@ -2,6 +2,7 @@ import { Layout } from '../components/Layout';
 import { Hero } from '../components/Hero';
 import { BangRevaJie } from '../components/Container';
 import Image from 'next/image';
+import { KegiatanCard } from 'components/KegiatanCard';
 
 export default function Home() {
   return (
@@ -20,14 +21,12 @@ export default function Home() {
         />
       </div>
       <BangRevaJie>
-        <div className="mb-[10px] w-60 h-1 bg-red-500 text-white"></div>
+        <div className="mb-[10px] text-white">
+          <KegiatanCard />
+        </div>
         <div>
           <h1 className="text-white">Hello content</h1>
         </div>
-        <div className="mb-[10px] w-60 h-1 bg-red-500 text-white"></div>
-        <div className="mb-[10px] w-60 h-1 bg-red-500 text-white"></div>
-        <div className="mb-[10px] w-60 h-1 bg-red-500 text-white"></div>
-        <div className="mb-[10px] w-60 h-1 bg-red-500 text-white"></div>
       </BangRevaJie>
     </div>
   );
