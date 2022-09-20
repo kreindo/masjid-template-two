@@ -4,7 +4,7 @@ export const KegiatanCard = () => {
     <>
       <div className="flex flex-col gap-7">
         <h1 className="text-[48px] sm:text-3xl font-bold">
-          Kegiatan <br /> Masjid Nurussalam
+          Galeri <br /> Masjid Nurussalam
         </h1>
         <div className="w-[95px] h-[4px] bg-white"></div>
         <p className="text-[10px] sm:text-[14px]">
@@ -15,7 +15,6 @@ export const KegiatanCard = () => {
         </p>
       </div>
       <ImageCard />
-      <div className="mt-[100px] w-10 h-10 bg-red-300"></div>
     </>
   );
 };

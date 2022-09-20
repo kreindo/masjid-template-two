@@ -1,4 +1,5 @@
-import Image from 'next/image';import { KegiatanData, MasjidData, TalimData, Dummy } from '../../misc/Datas';
+import Image from 'next/image';
+import { KegiatanData, MasjidData, TalimData, Dummy } from '../../misc/Datas';
 
 export const ImageCard = () => {
   const dummyDatas = Dummy;
