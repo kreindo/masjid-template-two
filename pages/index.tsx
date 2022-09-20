@@ -27,6 +27,9 @@ export default function Home() {
           <KegiatanCard />
         </div>
         <div className="mb-[100px]">
+          <div className="mb-[50px] flex justify-center items-center">
+            <h1 className="text-white text-3xl font-bold">Kegiatan</h1>
+          </div>
           <KegiatanBox title={'Foo Bar Boo'} dummy={false}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ex iste
             doloribus sapiente impedit laborum dolorum. Amet iusto distinctio
