@@ -2,8 +2,8 @@ import { ImageCard } from 'components/ImageCard';
 export const KegiatanCard = () => {
   return (
     <>
-      <div className="flex flex-col gap-7">
-        <h1 className="text-[48px] sm:text-3xl font-bold">
+      <div className="flex flex-col gap-7 mx-8 sm:mx-0">
+        <h1 className="text-[32px] sm:text-[48px] sm:text-3xl font-bold">
           Galeri <br /> Masjid Nurussalam
         </h1>
         <div className="w-[95px] h-[4px] bg-white"></div>

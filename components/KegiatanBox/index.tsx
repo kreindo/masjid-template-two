@@ -1,17 +1,19 @@
-import ImageBox from '../ImageBox';import { KegiatanData, MasjidData, TalimData, Dummy } from '../../misc/Datas';
+import ImageBox from '../ImageBox';
+import { KegiatanData, MasjidData, TalimData, Dummy } from '../../misc/Datas';
 export const KegiatanBox = ({ title, children, dummy }) => {
   const datas = Dummy;
   return (
-    <div className=" mb-[130px] relative">
+    <div className=" mb-[130px] relative  mx-8 sm:mx-0">
       <div className=" w-[50%]">
-        <h1 className="text-white relative z-[2] font-bold text-[24px] mb-[14px]">
+        <h1 className="text-white relative z-[2] font-bold text-[24px]">
           {title}
         </h1>
-        <p className="text-white font-medium text-[13px] mb-[28px]">
+        <div className="w-10 h-1 bg-white my-[18px] "></div>
+        <p className="text-white mb-[28px] text-[10px] sm:text-[14px]">
           {children}
         </p>
       </div>
-      <div className="flex flex-wrap gap-[18px]">
+      <div className="grid grid-cols-3 gap-[18px]">
         {datas.map((data, index) => {
           return (
             <ImageBox

@@ -1,4 +1,5 @@
-import { useState } from 'react';import Image from 'next/image';
+import { useState } from 'react';
+import Image from 'next/image';
 const Index = ({ src, dummy, alt }) => {
   let [hover, setHover] = useState(false);
 
@@ -17,7 +18,7 @@ const Index = ({ src, dummy, alt }) => {
   };
   return (
     <>
-      <div className="w-[150px] h-[150px] relative">
+      <div className="w-[100px] h-[100px] relative">
         {dummy == false ? (
           <Image
             src={src}
