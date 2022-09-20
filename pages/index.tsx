@@ -3,10 +3,11 @@ import { Hero } from '../components/Hero';
 import { BangRevaJie } from '../components/Container';
 import Image from 'next/image';
 import { KegiatanCard } from 'components/KegiatanCard';
+import { Footer } from 'components/Footer';
 
 export default function Home() {
   return (
-    <div className="bg-slate-800">
+    <div className="relative min-h-screen bg-slate-800">
       <div className="relative min-h-[1000px] max-h-[1000px] bg-main-hero bg-no-repeat bg-cover">
         <Layout title={'Homepage'}>
           <Hero />
@@ -28,6 +29,7 @@ export default function Home() {
           <h1 className="text-white">Hello content</h1>
         </div>
       </BangRevaJie>
+      <Footer />
     </div>
   );
 }
