@@ -9,7 +9,7 @@ import { KegiatanBox } from 'components/KegiatanBox';
 export default function Home() {
   return (
     <div className="relative min-h-screen bg-slate-800">
-      <div className="relative min-h-[1000px] max-h-[1000px] bg-main-hero bg-no-repeat bg-cover">
+      <div className="relative min-h-[800px] max-h-[800px] bg-main-hero bg-no-repeat bg-cover">
         <Layout title={'Homepage'}>
           <Hero />
         </Layout>
